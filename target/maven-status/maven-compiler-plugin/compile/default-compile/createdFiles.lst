@@ -1,0 +1,4 @@
+com/crm/qa/Pages/HomePage.class
+com/crm/qa/Base/BaseClass.class
+com/crm/qa/Pages/LoginPage.class
+com/crm/qa/Utils/TestUtil.class
