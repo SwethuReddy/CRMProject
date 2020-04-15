@@ -10,9 +10,9 @@ public class TestUtil {
 	public static long IMPLICIT_WAIT = 10;
 	
 	
-	public void switcheToFrame(WebDriver driver, int index)
+	public void switchToFrame(WebDriver driver, int name)
 	{
-		driver.switchTo().frame(index);
+		driver.switchTo().frame("");
 	}
 	
 	public void selectDropDown(WebElement element, String text)

@@ -1,5 +1,7 @@
 package com.crm.qa.testCases;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -12,6 +14,7 @@ public class HomePageTest extends BaseClass{
 	
 	LoginPage loginPage;
 	HomePage homePage;
+	Logger logger = Logger.getLogger(HomePageTest.class);
 	
 	//Constructor to call BaseClass constructor 
 	HomePageTest(){
@@ -35,6 +38,8 @@ public class HomePageTest extends BaseClass{
     @Test (priority=2)
     public void verifyClickContactsLink()
     {
+    	BasicConfigurator.configure();
+    	logger.info("Clicking on contacts link now");
     	homePage.clickContactLink();
 	}
 	

@@ -1,49 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35044" started-at="2020-04-11T19:28:37Z" finished-at="2020-04-11T19:29:12Z">
+  <suite name="TestAll" duration-ms="32594" started-at="2020-04-15T05:53:34Z" finished-at="2020-04-15T05:54:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35044" started-at="2020-04-11T19:28:37Z" finished-at="2020-04-11T19:29:12Z">
+    <test name="LoginToHome" duration-ms="32594" started-at="2020-04-15T05:53:34Z" finished-at="2020-04-15T05:54:06Z">
       <class name="com.crm.qa.testCases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="12977" started-at="2020-04-11T19:28:37Z" finished-at="2020-04-11T19:28:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="7949" started-at="2020-04-15T05:53:42Z" finished-at="2020-04-15T05:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyUserNameLable()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="verifyUserNameLable" duration-ms="1312" started-at="2020-04-11T19:28:50Z" finished-at="2020-04-11T19:28:52Z">
+        <test-method status="PASS" signature="verifyUserNameLable()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="verifyUserNameLable" duration-ms="1140" started-at="2020-04-15T05:53:49Z" finished-at="2020-04-15T05:53:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameLable -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="close" is-config="true" duration-ms="108" started-at="2020-04-11T19:28:52Z" finished-at="2020-04-11T19:28:52Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="close" is-config="true" duration-ms="109" started-at="2020-04-15T05:53:51Z" finished-at="2020-04-15T05:53:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="8197" started-at="2020-04-11T19:28:52Z" finished-at="2020-04-11T19:29:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="7093" started-at="2020-04-15T05:53:51Z" finished-at="2020-04-15T05:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyClickContactsLink()[pri:2, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="verifyClickContactsLink" duration-ms="1121" started-at="2020-04-11T19:29:00Z" finished-at="2020-04-11T19:29:01Z">
+        <test-method status="PASS" signature="verifyClickContactsLink()[pri:2, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="verifyClickContactsLink" duration-ms="1285" started-at="2020-04-15T05:53:58Z" finished-at="2020-04-15T05:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickContactsLink -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="close" is-config="true" duration-ms="106" started-at="2020-04-11T19:29:01Z" finished-at="2020-04-11T19:29:01Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="close" is-config="true" duration-ms="115" started-at="2020-04-15T05:53:59Z" finished-at="2020-04-15T05:53:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="setUp" is-config="true" duration-ms="9063" started-at="2020-04-11T19:29:01Z" finished-at="2020-04-11T19:29:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="setUp" is-config="true" duration-ms="5727" started-at="2020-04-15T05:53:59Z" finished-at="2020-04-15T05:54:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContacts()[pri:3, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="verifyContacts" duration-ms="2017" started-at="2020-04-11T19:29:10Z" finished-at="2020-04-11T19:29:12Z">
+        <test-method status="PASS" signature="verifyContacts()[pri:3, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="verifyContacts" duration-ms="1344" started-at="2020-04-15T05:54:05Z" finished-at="2020-04-15T05:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContacts -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@5e3a8624]" name="close" is-config="true" duration-ms="106" started-at="2020-04-11T19:29:12Z" finished-at="2020-04-11T19:29:12Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.HomePageTest@6fd02e5]" name="close" is-config="true" duration-ms="106" started-at="2020-04-15T05:54:06Z" finished-at="2020-04-15T05:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.crm.qa.testCases.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.crm.qa.testCases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testCases.LoginPageTest@5700d6b1]" name="setUp" is-config="true" duration-ms="4024" started-at="2020-04-15T05:53:34Z" finished-at="2020-04-15T05:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.crm.qa.testCases.LoginPageTest@5700d6b1]" name="verifyLoginTest" duration-ms="3540" started-at="2020-04-15T05:53:38Z" finished-at="2020-04-15T05:53:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.crm.qa.testCases.LoginPageTest@5700d6b1]" name="close" is-config="true" duration-ms="124" started-at="2020-04-15T05:53:41Z" finished-at="2020-04-15T05:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.crm.qa.testCases.LoginPageTest -->
+    </test> <!-- LoginToHome -->
+  </suite> <!-- TestAll -->
 </testng-results>
