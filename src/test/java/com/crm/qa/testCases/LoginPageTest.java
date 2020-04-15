@@ -29,7 +29,7 @@ public class LoginPageTest extends BaseClass
 	{
 		initialization();
 		BasicConfigurator.configure();
-		logger.info("Initialization is done");
+		logger.info("Initialization is almost done");
 		loginPage = new LoginPage();				
 	}
 
